@@ -1,5 +1,21 @@
-.link{
+.link,.link1,.link2{
     cursor: pointer;
+    padding: 10px;
+    transition: color 0.5s, background-color 0.2s ;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.link1:hover{
+    background-color: var(--loginBack);
+    color: white;
+}
+.link:hover{
+    background-color: var(--textColor);
+    color: var(--bg);
+}
+.link2:hover{
+    background-color: red;
+    color: white;
 }
 
 .burger{
